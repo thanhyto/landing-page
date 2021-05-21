@@ -1,13 +1,16 @@
 body{
     font-size: 18px;
     height:100vh;
+    background-color:#111;
 }
 .navbar-light .navbar-nav .nav-link{
     color:#fff;
     font-weight:lighter;
     font-size:0.8em;
 }
-
+.my-nav-bar{
+    background-color: transparent;
+}
 .netflix{
     color:#e50914;
     font-size:1.8em;
@@ -19,4 +22,14 @@ i{
 #active-page{
     color:white;
     font-weight: bold;
+}
+.form-control{
+    font-size:0.8em;
+}
+.btn-dark{
+    background-color: transparent;
+    border:none;
+}
+.navbar-toggler-icon{
+    background-color:#e50914;
 }

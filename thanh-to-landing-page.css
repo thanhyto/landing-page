@@ -1,15 +1,17 @@
 body{
     font-size: 18px;
-    height:100vh;
-    background-color:#111;
+    height: 100vh;
+    background:black;
+    color: white;
+}
+
+nav{
+    position:relative;
 }
 .navbar-light .navbar-nav .nav-link{
     color:#fff;
     font-weight:lighter;
     font-size:0.8em;
-}
-.my-nav-bar{
-    background-color: transparent;
 }
 .netflix{
     color:#e50914;
@@ -25,11 +27,31 @@ i{
 }
 .form-control{
     font-size:0.8em;
+    border:#fff;
 }
-.btn-dark{
-    background-color: transparent;
-    border:none;
+.btn{
+    font-weight:600;
 }
-.navbar-toggler-icon{
-    background-color:#e50914;
+
+.intro-card{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+
+    line-height: 2em;
+    height:70%;
+    
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0.8) 60%,rgba(0,0,0,0.8) 100%),
+                    url('https://i.pinimg.com/originals/df/36/22/df36227e94aadd202bcd3a9dd7cc6c5c.jpg');      
+    ;
+}
+h1{
+    font-size:3.5em;
+}
+.form-control-lg{
+    width:50%;
+    font-size:1.5em;
 }
